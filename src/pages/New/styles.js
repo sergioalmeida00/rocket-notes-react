@@ -11,6 +11,19 @@ export const Container = styled.div`
   "header"
   "content"
   ;
+
+  > main{
+    grid-area: content;
+    overflow-y: auto;
+  }
+
+  .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const Form = styled.form`
