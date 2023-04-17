@@ -24,6 +24,12 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 500px) {
+    >main {
+      padding: 0 1rem;
+    }
+  }
 `
 
 export const Form = styled.form`
